@@ -1,0 +1,29 @@
+body {
+	width: 1024px;
+	height: auto;
+	margin: 0 auto;
+}
+
+#questions {
+	font-family: 'Uncial Antiqua', cursive;
+	font-size: 26px;
+	width: 60%;
+	float: left;
+}
+
+#resultsbox {
+	width: 35%;
+	float: left;
+	font-family: 'Uncial Antiqua', cursive;
+	font-size: 22px;
+
+}
+
+#messagebox {
+	width: 35%;
+	float: left;
+	font-family: 'Uncial Antiqua', cursive;
+	font-size: 22px;
+
+}
+
