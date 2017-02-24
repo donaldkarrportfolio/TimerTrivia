@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trivia Game</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Uncial+Antiqua" rel="stylesheet">
+</head>
+
+<body>
+<h1>On The Road to Thebes</h1>
+<section id="questions">
+  <div>
+    <p>Time Remaining: <span id="time-display"></span></p>
+  </div>
+
+  <div id ="question1">
+    <p>The Answer is A</p>
+    <form id="question1_form">
+      <input type="radio" name="question1_choice" id="question1_answer">A
+      <input type="radio" name="question1_choice" class="wrong">B
+      <input type="radio" name="question1_choice" class="wrong">C
+      <input type="radio" name="question1_choice" class="wrong">D
+    </form>
+  </div>
+
+  <div id ="question2">
+    <p>The Answer is B</p>
+    <form id="question2_form">
+      <input type="radio" name="question2_choice" class="wrong">A
+      <input type="radio" name="question2_choice" id="question2_answer">B
+      <input type="radio" name="question2_choice" class="wrong">C
+      <input type="radio" name="question2_choice" class="wrong">D
+    </form>
+  </div>
+
+  <div id ="question3">
+    <p>The Answer is C</p>
+    <form id="question3_form">
+      <input type="radio" name="question3_choice" class="wrong">A
+      <input type="radio" name="question3_choice" class="wrong">B
+      <input type="radio" name="question3_choice" id="question3_answer">C
+      <input type="radio" name="question3_choice" class="wrong">D
+    </form>
+  </div>
+
+  <div id ="question4">
+    <p>The Answer is D</p>
+    <form id="question4_form">
+      <input type="radio" name="question4_choice" class="wrong">A
+      <input type="radio" name="question4_choice" class="wrong">B
+      <input type="radio" name="question4_choice" class="wrong">C
+      <input type="radio" name="question4_choice" id="question4_answer">D
+    </form>
+  </div>
+</section>
+
+  <div id="resultsbox">
+  	<span id="results"></span>
+  </div>
+  	<br>
+  	<br>
+  <div id="messagebox">
+  	<span id="message"></span>
+  </div>
+
+
+
+
+	
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js" ></script>
+  	<script type="text/javascript" src="assets/javascript/app.js"></script>
+
+
+</body>
+</html>
