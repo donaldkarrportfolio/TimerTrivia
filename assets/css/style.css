@@ -1,29 +1,44 @@
 body {
 	width: 1024px;
-	height: auto;
+	height: 800px;
 	margin: 0 auto;
+	background-image: url(https://uploads5.wikiart.org/images/raphael/school-of-athens-detail-from-right-hand-side-showing-diogenes-on-the-steps-and-euclid-1511.jpg);
+	background-size: cover;
+}
+
+h1 {
+	color: white;
 }
 
 #questions {
 	font-family: 'Uncial Antiqua', cursive;
-	font-size: 26px;
+	font-size: 24px;
 	width: 60%;
 	float: left;
+	background-color: white;
+	opacity: 0.8;
 }
 
 #resultsbox {
 	width: 35%;
+	height: 100px;
 	float: left;
 	font-family: 'Uncial Antiqua', cursive;
-	font-size: 22px;
+	font-size: 24px;
+	color: white;
+
 
 }
 
 #messagebox {
 	width: 35%;
+	height: 150px;
 	float: left;
 	font-family: 'Uncial Antiqua', cursive;
-	font-size: 22px;
+	font-size: 20px;
+	color: white;
+
 
 }
+
 
